@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+  }
+  
+  .bg-primary-color {
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500 inline-block;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+.primary {
+    background: linear-gradient(to right, #06b6d4, #3b82f6); /* Replace with your colors */
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
